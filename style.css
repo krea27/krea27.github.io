@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pixelify+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DotGothic16&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Astloch:wght@400;700&family=DotGothic16&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+	font-family: 'Unica One', cursive;
+	color: rgb(255, 255, 255);
+	text-align: center;
+
+	margin: 0;
+
+}
+
+body.tartan2 {
+	background-image: url('img/fondos/tartan2.png');
+}
+
+body.tartan5 {
+	background-image: url('img/fondos/tartan5.jpg');
+}
+
+body.tartanazul {
+	background-image: url('img/fondos/tartan.png');
+}
+
+body.tartan3 {
+	background-image: url('img/fondos/tartan3.jpg');
+}
+
+body.tornasol {
+	background-image: url('img/fondos/luces.jpg');
+
+}
+
+body.pagina1 {
+	background-image: url('img/fondos/red3.webp');
+}
+
+body.surlacouture {
+	background-image: url('img/fondos/raport.jpg');
+}
+
+body.tartanrojo {
+	background-image: url('img/fondos/tartan4.jpg');
+
+}
+
+body.ia {
+	background-image: url('img/fondos/ai2.jpg');
+	background-size: cover;
+
+}
+
+body.black {
+	background-color: black;
+}
+
+body.costume {
+	background-image: url(img/fondos/costume.jpg);
+	background-size: cover;
+}
+
+h1 {
+	font-family: "DotGothic16", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: rgb(247, 1, 1);
+	background-color: rgb(0, 0, 0, 0.2);
+}
+
+h3 {
+	font-family: "Astloch", system-ui;
+	font-weight: 700;
+	font-style: normal;
+
+	background-image: url(img/fondos/dorado.jpg);
+}
+
+h5 {
+	font-family: "Astloch", system-ui;
+	font-weight: 700;
+	font-style: normal;
+
+	color: white;
+	background-color: rgba(4, 4, 54, 0.6);
+
+
+}
+
+h4 {
+	font-family: "Unica One";
+
+	color: rgb(255, 91, 255);
+	background-color: rgb(0, 0, 0, 0.5);
+}
+
+
+/*	*/
+h6 {
+	font-family: "DotGothic16", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: rgb(70, 0, 0);
+	background-image: url(img/fondos/dorado.jpg);
+	
+}
+
+p {
+	font-family: "Astloch", system-ui;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.5em;
+
+}
+
+
+
+.bg-custom {
+	background-image: url('img/fondos/tartan2.png');
+	background-size: cover;
+	
+}
+
+.bg-tornasol {
+	background-image: url('img/fondos/tornasol.jpg');
+	background-size: cover;
+
+}
+
+.bg-tartan {
+	background-image: url('img/fondos/tartan5.jpg');
+	background-size: cover;
+
+}
+
+.bg-dorado {
+	background-image: url('img/fondos/dorado.jpg');
+	background-size: cover;
+
+}
+
+.bg-tartanazul {
+	background-image: url('img/fondos/tartan.png');
+	background-size: cover;
+
+}
+.bg-red{
+	background-image: url('img/fondos/red2.webp');
+	background-size: cover;
+
+}
+
+* //* Estilo para los campos de entrada (nombre, apellido, email, teléfono, synth) */
+
+.form-control {
+	background-color: rgb(255, 254, 254);
+
+	/*texto del usuario*/
+
+}
+
+/* Estilo para los títulos de los campos */
+.form-group label {
+	background-color: black;
+	/* Fondo negro */
+	color: white;
+	/* Texto blanco */
+	padding: 5px;
+	/* Añade un poco de espacio alrededor del texto */
+	border-radius: 5px;
+	/* Añade bordes redondeados */
+	display: inline-block;
+	/* Para que el fondo se aplique solo alrededor del texto */
+	margin-bottom: 5px;
+	/* Espacio inferior entre los títulos y los campos */
+}
+
+nav {
+	font-family: "Astloch", system-ui;
+	font-weight: 700;
+	font-style: normal;
+	background-color: rgb(9, 1, 40);
+
+
+}
+
+/* Estilo para el fondo del menú expandido */
+li {
+	color: rgb(255, 230, 0);
+	background-color: rgb(9, 1, 40);
+}
+
+/* Cambia este color según tus preferencias */
+
+
+
+a:link {
+	color: rgba(255, 80, 226, 0.796)
+}
+
+/*pseudo clases para enlaces en orden  a:link visited: a:hover a:active*/
+a:visited {
+	color: rgb(255, 230, 0)
+}
+
+a:hover {
+	color: rgb(16, 195, 70)
+}
+
+a:active {
+	color: rgb(255, 0, 0)
+}button.navbar-toggler.collapsed {
+    color: rgb(255, 230, 0); 
+    border-color: rgb(255, 230,0); 
+}
