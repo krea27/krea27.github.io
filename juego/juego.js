@@ -23,6 +23,7 @@ function iniciarJuego() {
     }
 }
 
+
 // Función para iniciar la reproducción de los videos
 function iniciarVideos() {
     // Obtiene los elementos de video
@@ -58,6 +59,12 @@ function ocultarControlesVideo(video) {
 }
 
 // Función para detener un video específico
+/*Esta función se llama detenerVideo y toma un parámetro llamado numeroVideo, que se espera que sea el número del video que se desea detener.
+Obtención del elemento de video:const videoElement = document.getElementById(`video${numeroVideo}`);
+document.getElementById() es un método que se utiliza para obtener un elemento del DOM (Documento Object Model) según su identificador (ID).
+En este caso, se está utilizando una plantilla de cadena (template string) con la sintaxis ${} para concatenar el valor de numeroVideo al string "video".
+Esto generará una cadena como "video1", "video2", etc., dependiendo del valor de numeroVideo.
+videoElement contendrá la referencia al elemento de video correspondiente al número proporcionado.*/
 function detenerVideo(numeroVideo) {
     // Obtiene el elemento de video correspondiente al número indicado
     const videoElement = document.getElementById(`video${numeroVideo}`);
