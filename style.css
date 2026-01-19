@@ -14,8 +14,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Astloch:wght@400;700&family=DotGothic16&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Astloch:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DotGothic16&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Astloch:wght@400;700&family=Baskervville:ital,wght@0,400..700;1,400..700&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DotGothic16&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Astloch:wght@400;700&family=Baskervville:ital,wght@0,400..700;1,400..700&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DotGothic16&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 body {
-	font-family: 'Unica One', cursive;
+	font-family: 'Baskervville', serif;
 	color: rgb(255, 255, 255);
 	text-align: center;
 
@@ -72,35 +79,61 @@ body.costume {
 	background-size: cover;
 }
 
-h1 {
+h1 /*{
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 300;
+  color: #000;
+  background-color: #fff; /* O fondo negro con letra blanca 
+  line-height: 2;
+}*/
+ /* {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 300;
+color: rgb(255, 255, 255);
+}*/ 
+{
+  font-family: 'Baskervville', serif;
+font-size: 2rem;
+  color: rgb(255, 255, 255);
+    font-weight: bold;
+} 
+/*original{
 	font-family: "DotGothic16", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	color: rgb(255, 255, 255);
 	background-color: rgb(0, 0, 0, 0.2);
-}
-
-h3 {
-	font-family: "Astloch", system-ui;
-	font-weight: 700;
+}*/
+h2 {
+	font-family: 'Baskervville', serif; /*"Astloch", system-ui;*/
+	font-weight: 400;
 	font-style: normal;
+	color:#000000;
+	
+}
+h3 {
+	font-family: 'Baskervville', serif; /*"Astloch", system-ui;*/
+	font-weight: 400;
+	font-style: normal;
+	
 
-	background-image: url(img/fondos/dorado.jpg);
+	/*background-image: url(img/fondos/dorado.jpg);*/
 }
 
 h5 {
-	font-family: "Astloch", system-ui;
+	font-family: 'Baskervville', serif;
 	font-weight: 700;
 	font-style: normal;
 
 	color: white;
-	background-color: rgba(4, 4, 54, 0.6);
+	background-color: rgba(0, 0, 0, 0.6);
 
 
 }
 
 h4 {
-	font-family: "Unica One";
+	font-family: 'Baskervville', serif;/*"Unica One";*/
 
 	color: rgb(255, 255, 255);
 	background-color: rgb(0, 0, 0, 0.5);
@@ -109,19 +142,19 @@ h4 {
 
 /*	*/
 h6 {
-	font-family: "DotGothic16", sans-serif;
+	font-family:'Baskervville', serif;
 	font-weight: 400;
 	font-style: normal;
-	color: rgb(70, 0, 0);
-	background-image: url(img/fondos/dorado.jpg);
+	color: rgb(0, 0, 0);
+	/*background-image: url(img/fondos/dorado.jpg);*/
 	
 }
 
 p {
-	font-family: "Astloch", system-ui;
-	font-weight: 700;
+	font-family: 'Baskervville', serif;
+	font-weight: 100;
 	font-style: normal;
-	font-size: 1.5em;
+	font-size: 1em;
 
 }
 
@@ -162,7 +195,7 @@ p {
 
 }
 
-* //* Estilo para los campos de entrada (nombre, apellido, email, teléfono, synth) */
+ /* Estilo para los campos de entrada (nombre, apellido, email, teléfono, synth) */
 
 .form-control {
 	background-color: rgb(255, 254, 254);
@@ -188,18 +221,18 @@ p {
 }
 
 nav {
-	font-family: "Astloch", system-ui;
-	font-weight: 700;
+	font-family: 'Baskervville', serif;
+	font-weight: 400;
 	font-style: normal;
-	background-color: rgb(9, 1, 40);
+	background-color: rgb(0, 0, 0);
 
 
 }
 
 /* Estilo para el fondo del menú expandido */
 li {
-	color: rgb(255, 230, 0);
-	background-color: rgb(9, 1, 40);
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
 }
 
 /* Cambia este color según tus preferencias */
@@ -207,22 +240,27 @@ li {
 
 
 a:link {
-	color: rgba(255, 80, 226, 0.796)
+	color: rgba(255, 255, 255, 0.796)
 }
 
 /*pseudo clases para enlaces en orden  a:link visited: a:hover a:active*/
 a:visited {
-	color: rgb(255, 230, 0)
+	color: rgb(255, 255, 255)
 }
 
 a:hover {
-	color: rgb(16, 195, 70)
+	color: rgb(249, 249, 249)
 }
 
 a:active {
 	color: rgb(255, 0, 0)
 }button.navbar-toggler.collapsed {
-    color: rgb(255, 230, 0); 
-    border-color: rgb(255, 230,0); 
-
+    color: rgb(255, 255, 255); 
+    border-color: rgb(255, 255, 255); 
+}
+.bg-black {
+    background-color: #000 !important;
+}
+.fondo-blanco {
+	background-color:rgb(255, 255, 255);
 }
